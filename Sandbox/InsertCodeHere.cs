@@ -92,7 +92,20 @@ namespace Sandbox
             // Case 8 (DIFFICULT)
             // Print out the numbers 10,9,12,7,14,5,16,3,18,1
             Console.WriteLine("start of case 8");
-            int c8 = 
+            int c8 = 0;
+            while (c8 < 10)
+            {
+                if ((c8 % 2)== 0)
+                {
+                    Console.WriteLine(10+c8);
+                }
+                else
+                {
+                    Console.WriteLine(10-c8);
+                }
+                c8++;
+            }
+            Console.WriteLine("end of case 8");
 
 
             // The LAST line of code should be ABOVE this line
